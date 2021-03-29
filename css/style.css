@@ -5,10 +5,6 @@ body {
     url(../img/main.jpg) no-repeat center center /cover;
 }
 
-header {
-
-}
-
 #crumb {
     padding: 0 25px;
 }
@@ -74,7 +70,7 @@ header {
 
 .banner {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -96,6 +92,10 @@ header {
     }
 }
 
+.banner h1 {
+    font-size: 75px;
+}
+
 .banner-text {
     animation-name: fromright;
     animation-duration: 3s;
@@ -110,6 +110,10 @@ header {
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+.banner p {
+    font-size: 24px;
 }
 
 #middle hr {
@@ -130,12 +134,16 @@ header {
 }
 
 .ylemine h1 {
-    font-size: 5vw;
+    font-size: 70px;
 }
 
 .vasak {
     border-right: 1px solid black;
     padding: 0 50px;
+}
+
+.vasak h4 {
+    font-size: 28px;
 }
 
 .vasak-meist {
@@ -144,6 +152,10 @@ header {
 
 .parem {
     padding: 0 50px;
+}
+
+#stiil1 h4 {
+    font-size: 28px;
 }
 
 .parem hr {
@@ -170,10 +182,21 @@ footer {
     background: #000;
 }
 
-/* Medium devices (992px and down) */
+/* Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 1200px) {
+    .vasak h4 {
+        font-size: 22px;
+    }
+
+    #stiil1 h4 {
+        font-size: 22px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
     .ylemine h1 {
-        font-size: 6vw;
+        font-size: 60px;
     }
 
     .vasak {
@@ -182,6 +205,7 @@ footer {
 
     .vasak h4 {
         text-align: center;
+        font-size: 32px;
     }
 
     .parem hr {
@@ -197,6 +221,7 @@ footer {
 
     #stiil1 h4 {
         text-align: center;
+        font-size: 32px;
     }
 
     #stiil1 p {
@@ -207,8 +232,32 @@ footer {
 
 /* Medium devices (768px and down) */
 @media only screen and (max-width: 768px) and (min-width: 576px) {
+    .banner h1 {
+        font-size: 60px;
+    }
+
+    .banner p {
+        font-size: 20px;
+    }
+
+    .ylemine h1 {
+        font-size: 45px;
+    }
+
     .vasak {
         padding-bottom: 20px;
+    }
+
+    .vasak h4 {
+        font-size: 24px;
+    }
+
+    #stiil1 h4 {
+        font-size: 24px;
+    }
+
+    #infotekst button {
+        width: 100%;
     }
 
     footer p {
@@ -218,12 +267,36 @@ footer {
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 576px) {
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .banner p {
+        font-size: 18px;
+    }
+
+    .ylemine h1 {
+        font-size: 38px;
+    }
+
     .vasak {
         padding: 0 3px 20px 3px;
     }
 
+    .vasak h4 {
+        font-size: 25px;
+    }
+
     .parem {
         padding: 0 3px;
+    }
+
+    #stiil1 h4 {
+         font-size: 25px;
+     }
+
+    #infotekst button {
+        width: 100%;
     }
 
     footer p {
