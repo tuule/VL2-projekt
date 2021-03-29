@@ -185,11 +185,11 @@ footer {
 /* Very large devices */
 @media only screen and (max-width: 1200px) {
     .vasak h4 {
-        font-size: 22px;
+        font-size: 21px;
     }
 
     #stiil1 h4 {
-        font-size: 22px;
+        font-size: 21px;
     }
 }
 
@@ -231,7 +231,7 @@ footer {
 }
 
 /* Medium devices */
-@media only screen and (max-width: 768px) and (min-width: 577px) {
+@media only screen and (max-width: 768px) and (min-width: 576px) {
     .banner h1 {
         font-size: 60px;
     }
@@ -276,7 +276,7 @@ footer {
     }
 
     .ylemine h1 {
-        font-size: 38px;
+        font-size: 7.2vw;
     }
 
     .vasak {
@@ -284,7 +284,7 @@ footer {
     }
 
     .vasak h4 {
-        font-size: 25px;
+        font-size: 4.7vw;
     }
 
     .parem {
@@ -292,7 +292,7 @@ footer {
     }
 
     #stiil1 h4 {
-         font-size: 25px;
+         font-size: 4.7vw;
      }
 
     #infotekst button {
@@ -305,7 +305,7 @@ footer {
 }
 
 /* Super small devices (my phone) */
-@media only screen and (max-width: 413px){
+@media only screen and (max-width: 414px){
     .navbar-brand {
         width: 50%;
     }
