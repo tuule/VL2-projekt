@@ -16,7 +16,7 @@ header {
 #info {
     height: 140px;
     padding-left: 37px;
-    background: url(../img/info.jpg) no-repeat center center /cover;
+    background: url(../img/mask.jpg) no-repeat center center /cover;
 }
 
 #info h1 {
@@ -27,10 +27,21 @@ header {
 #kontakt {
     height: 140px;
     padding-left: 37px;
-    background: url(../img/kontakt.jpeg) no-repeat center center /cover;
+    background: url(../img/kontakt.jpg) no-repeat center center /cover;
 }
 
 #kontakt h1 {
+    color: #000;
+    padding-top: 30px;
+}
+
+#meist {
+    height: 140px;
+    padding-left: 37px;
+    background: url(../img/meist.jpg) no-repeat center center /cover;
+}
+
+#meist h1 {
     color: #000;
     padding-top: 30px;
 }
@@ -49,10 +60,6 @@ header {
 
 #tellitekst {
     padding: 10px 25px;
-}
-
-#tellitekst h1 {
-    text-align: center;
 }
 
 #tellitekst p {
@@ -105,7 +112,7 @@ header {
     }
 }
 
-hr {
+#middle hr {
     border-top: 1px solid #fff;
     width: 75%;
     margin: 0 auto 20px;
@@ -122,13 +129,37 @@ hr {
     }
 }
 
+.ylemine h1 {
+    font-size: 5vw;
+}
+
 .vasak {
     border-right: 1px solid black;
     padding: 0 50px;
 }
 
+.vasak-meist {
+    padding: 0 30px;
+}
+
 .parem {
     padding: 0 50px;
+}
+
+.parem hr {
+    display: none;
+}
+
+.parem button {
+    margin-top: 10px;
+}
+
+.parem-meist {
+    padding: 0 30px;
+}
+
+.parem-meist button {
+    width: 100%;
 }
 
 .form-check input {
@@ -139,14 +170,63 @@ footer {
     background: #000;
 }
 
-/* Medium devices (768px and down) */
-@media only screen and (max-width: 768px) {
-    #middle h1 {
-        font-size: 4rem;
+/* Medium devices (992px and down) */
+@media only screen and (max-width: 992px) {
+    .ylemine h1 {
+        font-size: 6vw;
     }
 
     .vasak {
         border-right: none;
+    }
+
+    .vasak h4 {
+        text-align: center;
+    }
+
+    .parem hr {
+        display: flex;
+        border-top: 1px solid #000;
+        width: 100%;
         padding-bottom: 20px;
+    }
+
+    .parem button {
+        width: 100%;
+    }
+
+    #stiil1 h4 {
+        text-align: center;
+    }
+
+    #stiil1 p {
+        text-align: center;
+    }
+
+}
+
+/* Medium devices (768px and down) */
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .vasak {
+        padding-bottom: 20px;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    .vasak {
+        padding: 0 3px 20px 3px;
+    }
+
+    .parem {
+        padding: 0 3px;
+    }
+
+    footer p {
+        font-size: 0.7rem;
     }
 }
