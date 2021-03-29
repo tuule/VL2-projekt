@@ -8,16 +8,54 @@ header {
 
 }
 
+#crumb {
+    padding: 0 25px;
+}
+
 #info {
     height: 140px;
     padding-left: 37px;
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6)), url("http://kodu.ut.ee/~tuuletan/info.jpg") no-repeat center center /cover;
-    vert-align: middle;
+    background: url("http://kodu.ut.ee/~tuuletan/info.jpg") no-repeat center center /cover;
 }
 
 #info h1 {
     color: #000;
     padding-top: 30px;
+}
+
+#kontakt {
+    height: 140px;
+    padding-left: 37px;
+    background: url("http://kodu.ut.ee/~tuuletan/kontakt.jpeg") no-repeat center center /cover;
+}
+
+#kontakt h1 {
+    color: #000;
+    padding-top: 30px;
+}
+
+#infotekst {
+    padding: 10px 25px;
+}
+
+#infotekst h1 {
+    text-align: left;
+}
+
+#infotekst p {
+    text-align: justify;
+}
+
+#tellitekst {
+    padding: 10px 25px;
+}
+
+#tellitekst h1 {
+    text-align: center;
+}
+
+#tellitekst p {
+    text-align: justify;
 }
 
 .breadcrumb >.breadcrumb-item a {
@@ -83,6 +121,19 @@ hr {
     }
 }
 
+.vasak {
+    border-right: 1px solid black;
+    padding: 0 50px;
+}
+
+.parem {
+    padding: 0 50px;
+}
+
+.form-check input {
+    background: yellow;
+}
+
 footer {
     background: #000;
 }
@@ -91,5 +142,10 @@ footer {
 @media only screen and (max-width: 768px) {
     #middle h1 {
         font-size: 4rem;
+    }
+
+    .vasak {
+        border-right: none;
+        padding-bottom: 20px;
     }
 }

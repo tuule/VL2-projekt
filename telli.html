@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Info</title>
+    <title>Telli</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -36,9 +36,9 @@
 <!-- header lõpp --->
 
 <!-- section --->
-<section id="info">
+<section id="kontakt">
     <div class="text-left">
-        <h1 class="font-weight-bold display-4">Info</h1>
+        <h1 class="font-weight-bold display-4">Kontakt</h1>
     </div>
 </section>
 <!-- section lõpp --->
@@ -52,39 +52,55 @@
 </section>
 <!-- breadcrumb lõpp -->
 
-<!-- info algus -->
-<section id="infotekst">
+<!-- telli algus -->
+<section id="tellitekst">
     <div class="container">
         <div class="row p-3">
-            <h1>Kuidas me saame vaktsiine nii ruttu?</h1>
-            <p class="lead text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Aliquam malesuada bibendum arcu vitae. Volutpat
-                lacus laoreet non curabitur gravida arcu ac tortor. Lacinia at quis risus sed vulputate. Convallis
-                posuere morbi leo urna molestie. Orci a scelerisque purus semper eget duis at tellus. Tincidunt dui
-                ut ornare lectus. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Quam viverra orci
-                sagittis eu volutpat odio facilisis mauris. Tristique et egestas quis ipsum suspendisse ultrices gravida.
-                Fringilla phasellus faucibus scelerisque eleifend donec.</p>
+            <div class="col text-center">
+                <h1>Tellimiseks on kaks viisi!</h1>
+            </div>
         </div>
         <div class="row p-3">
-            <h1>COVID-19 Info</h1>
-            <p class="lead text-secondary">Nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus.
-                Natoque penatibus et magnis dis. Id diam vel quam elementum pulvinar etiam. Cursus risus at ultrices
-                mi tempus imperdiet nulla malesuada pellentesque. At imperdiet dui accumsan sit. Vel pretium lectus
-                quam id leo. Consectetur purus ut faucibus pulvinar elementum integer. Et molestie ac feugiat sed
-                lectus vestibulum mattis ullamcorper velit.</p>
-        </div>
-        <div class="row p-3">
-            <h1>Vaktsiinide info</h1>
-            <p class="lead text-secondary">Id diam vel quam elementum pulvinar etiam non. Nulla at volutpat diam ut
-                venenatis tellus. Amet commodo nulla facilisi nullam. Ullamcorper dignissim cras tincidunt lobortis
-                feugiat. In metus vulputate eu scelerisque felis imperdiet. Commodo quis imperdiet massa tincidunt.
-                Eu consequat ac felis donec et odio pellentesque diam. Neque aliquam vestibulum morbi blandit cursus
-                risus at.</p>
-        </div>
+            <!-- vasak pool --->
+            <div class="col mb-3 vasak" >
+                <h4 class="pb-2">Helistades meile <span class="text-primary">+372 1234 5678</span></h4>
+                <img src="http://kodu.ut.ee/~tuuletan/call.jpg" width="100%">
+            </div>
+            <!-- parem pool --->
+            <div class="col mb-3 parem">
+                <div>
+                    <h4 class="pb-1">Jättes meile oma kontaktandmed!</h4>
+                    <p class="lead text-secondary" style="font-size: 16px">Võtame teiega esimesel võimalusel ühendust</p>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="nimi">Nimi</label>
+                        <input type="text" class="form-control" id="nimi" placeholder="Eesnimi Perenimi" style="background-color: #f7f7f7">
+                    </div>
+                    <div class="form-group">
+                        <label for="isikukood">Isikukood</label>
+                        <input type="number" class="form-control" id="isikukood" placeholder="12345678901" style="background-color: #f7f7f7">
+                    </div>
+                    <div class="form-group">
+                        <label for="meil">Meiliaadress</label>
+                        <input type="email" class="form-control" id="meil" placeholder="info@getwax.ee" style="background-color: #f7f7f7">
+                    </div>
+                </form>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="check">
+                    <label class="form-check-label" for="check">
+                        Olen nõus isikuandmete kasutamisega firmasiseselt ja teile teenuse pallumises
+                    </label>
+                </div>
+                <div class="pt-3">
+                    <button type="button" class="btn btn-primary btn-lg font-weight-bold px-5">EDASTA TELLIMUS</button>
+                </div>
 
+            </div>
+        </div>
     </div>
 </section>
-<!-- info lõpp -->
+<!-- telli lõpp -->
 
 <!-- footer algus --->
 <footer class="px-5 pt-3">
