@@ -1,0 +1,81 @@
+body {
+    letter-spacing: 1px;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("http://kodu.ut.ee/~tuuletan/main.jpg") no-repeat center center /cover;
+}
+
+header {
+
+}
+
+section {
+    margin-top: 40px;
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.banner-heading {
+    animation-name: fromleft;
+    animation-duration: 3s;
+}
+
+@keyframes fromleft {
+    0% {
+        transform: translateX(-6vw);
+        opacity: 0.3;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.banner-text {
+    animation-name: fromright;
+    animation-duration: 3s;
+}
+
+@keyframes fromright {
+    0% {
+        transform: translateX(6vw);
+        opacity: 0.3;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+hr {
+    border-top: 1px solid #fff;
+    width: 75%;
+    margin: 0 auto 20px;
+    animation-name: appear;
+    animation-duration: 3s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    background: #000;
+}
+
+/* Medium devices (768px and down) */
+@media only screen and (max-width: 768px) {
+    #middle h1 {
+        font-size: 4rem;
+    }
+}
