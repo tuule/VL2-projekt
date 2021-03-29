@@ -1,7 +1,8 @@
 body {
     letter-spacing: 1px;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("http://kodu.ut.ee/~tuuletan/main.jpg") no-repeat center center /cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(../img/main.jpg) no-repeat center center /cover;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
 #info {
     height: 140px;
     padding-left: 37px;
-    background: url("http://kodu.ut.ee/~tuuletan/info.jpg") no-repeat center center /cover;
+    background: url(../img/info.jpg) no-repeat center center /cover;
 }
 
 #info h1 {
@@ -26,7 +27,7 @@ header {
 #kontakt {
     height: 140px;
     padding-left: 37px;
-    background: url("http://kodu.ut.ee/~tuuletan/kontakt.jpeg") no-repeat center center /cover;
+    background: url(../img/kontakt.jpeg) no-repeat center center /cover;
 }
 
 #kontakt h1 {
