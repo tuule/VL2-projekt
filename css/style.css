@@ -8,8 +8,22 @@ header {
 
 }
 
-section {
-    margin-top: 40px;
+#info {
+    height: 140px;
+    padding-left: 37px;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6)), url("http://kodu.ut.ee/~tuuletan/info.jpg") no-repeat center center /cover;
+    vert-align: middle;
+}
+
+#info h1 {
+    color: #000;
+    padding-top: 30px;
+}
+
+.breadcrumb >.breadcrumb-item a {
+    font-size: 12px;
+    letter-spacing: normal;
+    color: #000;
 }
 
 .banner {
